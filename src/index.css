@@ -115,4 +115,8 @@ body {
     min-height: 30vh;
   }
 
+  .CodeMirror {
+    min-height: 30vh;
+  }
+
 }
