@@ -93,3 +93,26 @@ body {
 #editor::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+
+@media screen and (max-width: 1000px) {
+
+  .app {
+    flex-direction: column;
+  }
+
+  .app__editors {
+    max-height: 35vh;
+  }
+
+  .app__output {
+    flex: 1;
+    height: 100vh;
+    overflow-y: auto;
+  }
+
+  .editor-container {
+    flex-grow: 0;
+    min-height: 30vh;
+  }
+
+}
